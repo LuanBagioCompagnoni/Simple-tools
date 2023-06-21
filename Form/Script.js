@@ -1,5 +1,4 @@
-document.getElementById('formulario').addEventListener('submit', function(e) {
-    e.preventDefault();
+function gerarJson(){
   
     var email = document.getElementById('email').value;
     var nome = document.getElementById('nome').value;
@@ -16,4 +15,4 @@ document.getElementById('formulario').addEventListener('submit', function(e) {
     var json = JSON.stringify(data, null, 2);
   
     document.getElementById('resultado').innerText = json;
-  });
+  }

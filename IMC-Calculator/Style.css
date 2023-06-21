@@ -2,6 +2,7 @@ body{
     background-color: #363636;
     display: flex;
     justify-content: center;
+    zoom: 2;
 }
 
 #body{
@@ -15,11 +16,6 @@ body{
 body div{
     margin-inline: 10px;
     margin-top: 20px;
-}
-
-#Equal{
-    display: flex;
-    align-items: center;
 }
 
 .form-control:disabled{
@@ -58,4 +54,9 @@ body div{
   
   #observacoes p {
     margin: 0;
+  }
+
+  #botao{
+    width: 100%;
+    margin: 20px;
   }
