@@ -1,0 +1,18 @@
+label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  input, button {
+    margin-top: 5px;
+  }
+  
+  button {
+    padding: 5px 10px;
+  }
+  
+  #resultado {
+    margin-top: 20px;
+    white-space: pre-wrap;
+    font-family: monospace;
+  }
