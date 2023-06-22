@@ -7,7 +7,7 @@ header{
 nav>a{
     text-decoration: none; 
     color: rgb(255, 255, 255);
-    font-size: 30px;
+    font-size: 20px;
     margin-left: 35px;
     margin-right: 35px;
 }
@@ -60,6 +60,14 @@ label {
     font-family: monospace;
     color: white;
     overflow-wrap: break-word;
+    background-color: #afafaf;
+    border: 1px solid #000;
+    color: #212529;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    display: flexbox;
+    padding: 5px;
   }
 
   .form-control:disabled{
