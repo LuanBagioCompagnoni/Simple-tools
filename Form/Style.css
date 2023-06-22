@@ -1,6 +1,23 @@
 header{
     width: 100%;
-    height: 100px;
+    height: 80px;
+    box-shadow: 0px 2px 10px black;
+}
+
+nav>a{
+    text-decoration: none; 
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.menus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
 }
 
 body{
@@ -13,7 +30,6 @@ body{
     flex-direction: row;
     columns: 2;
     justify-content: center;
-    zoom: 2;
     margin-inline: 20px;
 }
 

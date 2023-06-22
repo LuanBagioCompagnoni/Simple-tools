@@ -7,30 +7,39 @@
     <link rel="stylesheet" href="Style.css">
     <title>IMC</title>
 </head>
+<header>
+    <nav class="menus">
+        <a href="../Calculator/Calc.html" class="menu-1">Calculadora</a>
+        <a href="../IMC-Calculator/IMC-Calculator.html" class="menu-2">IMC</a>
+        <a href="../Form/Form.html" class="menu-3">Formulario</a>
+    </nav>
+</header>
 <body>
-    <div id="body">
-        <div id="imput" class="input-group input-group-sm mb-3">
-            <span class="input-group-text" id="inputGroup-sizing-sm">Peso</span>
-            <input id="peso" placeholder="Em quilos" type="number" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+    <div id="corpo">
+        <div id="body">
+            <div id="imput" class="input-group input-group-sm mb-3">
+                <span class="input-group-text" id="inputGroup-sizing-sm">Peso</span>
+                <input id="peso" placeholder="Em quilos" type="number" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+            </div>
+            <div id="imput" class="input-group input-group-sm mb-3">
+                <span class="input-group-text" id="inputGroup-sizing-sm">Altura</span>
+                <input id="altura" placeholder="Em centímetros" type="number" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+            </div>
+            <button id="botao" type="button" class="btn btn-light" onclick="calculate()">Calcular</button>
+            <div id="imput" class="input-group input-group-sm mb-3">
+                <span class="input-group-text" id="inputGroup-sizing-sm">IMC</span>
+                <input id="resultado" type="number" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" disabled>
+            </div>
         </div>
-        <div id="imput" class="input-group input-group-sm mb-3">
-            <span class="input-group-text" id="inputGroup-sizing-sm">Altura</span>
-            <input id="altura" placeholder="Em centímetros" type="number" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+        <div id="observacoes">
+            <p>IMC	Classificação</p>
+            <p>Menor que 18 magreza</p>
+            <p>18,5 a 24,9 normal</p>
+            <p>25 a 29,9 sobrepeso</p>
+            <p>30 a 34,9 obesidade grau I</p>
+            <p>35 a 39,9 obesidade grau II</p>
+            <p>Maior que 40	obesidade grau III</p>
         </div>
-        <button id="botao" type="button" class="btn btn-light" onclick="calculate()">Calcular</button>
-        <div id="imput" class="input-group input-group-sm mb-3">
-            <span class="input-group-text" id="inputGroup-sizing-sm">IMC</span>
-            <input id="resultado" type="number" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" disabled>
-        </div>
-    </div>
-    <div id="observacoes">
-        <p>IMC	Classificação</p>
-        <p>Menor que 18 magreza</p>
-        <p>18,5 a 24,9 normal</p>
-        <p>25 a 29,9 sobrepeso</p>
-        <p>30 a 34,9 obesidade grau I</p>
-        <p>35 a 39,9 obesidade grau II</p>
-        <p>Maior que 40	obesidade grau III</p>
     </div>
 </body>
 <script src="Script.js"></script>
